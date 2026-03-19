@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
+// region 堆排序
+
+// region 快速排序
 func quickSort(arr []int) []int {
+	/*
+		1、选择基准元素
+		2、通过遍历，将数组分成两部分：小于基准元素的放在左边，大于基准元素的放在右边
+		3、递归地对左右两部分进行排序
+	*/
 	length := len(arr)
 	if length <= 1 {
 		return arr
@@ -29,7 +37,7 @@ func quickSort(arr []int) []int {
 	return result
 }
 
-func mock_quickSort() {
+func mock_sort() {
 	arr := []int{1, 3, 5, 7, 9, 2, 4, 6, 8, 0}
 	result := quickSort(arr)
 	fmt.Println(result)

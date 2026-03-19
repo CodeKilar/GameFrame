@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	mock_quickSort()
+	mock_sort()
 }
