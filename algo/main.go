@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	mock_sort()
+	mock_heap()
 }
