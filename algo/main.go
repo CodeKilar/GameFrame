@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	mock_heap()
+	mock_binary_mean()
 }
